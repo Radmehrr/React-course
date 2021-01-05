@@ -6,7 +6,7 @@ import { startLogout } from "../actions/auth";
 export const Header = ({ startLogout }) => (
   <header className="header">
     <div className="content-container">
-      <Link to="/">
+      <Link to="/dashboard">
         <h1 className="header__title">Expesify</h1>
       </Link>
       <button onClick={startLogout}>logout</button>
